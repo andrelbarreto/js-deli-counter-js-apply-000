@@ -24,7 +24,7 @@ function nowServing(x) {
     x.splice(0, 1);
     return "Currently serving " + name + ".";
   }
-  takeANumber("Ada");
+  console.log takeANumber("Ada");
   takeANumber("Andre");
   currentLine(katzDeliLine);
   nowServing(katzDeliLine);
